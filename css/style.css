@@ -465,7 +465,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Credits Section */
 #tf-credits{
-	background: url(../img/05.JPG);
+	background: url(../img/05.jpg);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
