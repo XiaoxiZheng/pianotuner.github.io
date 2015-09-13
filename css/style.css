@@ -181,7 +181,7 @@ ul.story-list li span{
 
 /*storyC section */
 #tf-storyC{
-	background: url(../img/story/pianoPlayerF.jpg);
+	background: url(../img/story/pianoPlayerF.JPG);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -231,7 +231,7 @@ a.fa.fa-angle-down:hover{
 
 /* Know me Section*/
 #tf-knowMe{
-	background: url(../img/story/03.jpg);
+	background: url(../img/story/03.JPG);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -327,7 +327,7 @@ img.img-circle.team-img {
 
 /* Clients Section */
 #tf-clients{
-	background: url(../img/04.jpg);
+	background: url(../img/04.JPG);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
@@ -465,7 +465,7 @@ ol.type li a.active { font-weight: 700; }
 }
 /* Credits Section */
 #tf-credits{
-	background: url(../img/05.jpg);
+	background: url(../img/05.JPG);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
