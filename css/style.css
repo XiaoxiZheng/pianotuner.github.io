@@ -457,6 +457,16 @@ ol.type li a.active { font-weight: 700; }
 .hover-bg:hover .hover-text{
 	opacity: 1;
 }
+
+/* Decision Style */
+#tf-decision{
+	background: url(../img/door.JPG);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	color: #cfcfcf;
+}
 #tf-works i.fa {
 	height: 30px;
 	width: 30px;
