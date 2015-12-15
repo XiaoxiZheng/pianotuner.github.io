@@ -33,7 +33,7 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400' rel='stylesheet' type='text/css'>
 
     <script type="text/javascript" src="js/modernizr.custom.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -247,7 +247,7 @@
     <div id="tf-decision" class="text-center">
         <div class="overlay">
             <audio controls loop>
-                <source src="http://soundbible.com/grab.php?id=1196&type=mp3" autoplay>
+                <source src="http://www.freesfx.co.uk/download/?type=mp3&id=12440" autoplay>
               Your browser does not support the <code>audio</code> element.
             </audio>
             <div class="content">
@@ -258,7 +258,7 @@
         </div>
                 <button type="button" class="btn btn-default" data-toggle="modal" data-target="#walkAway">Walk Away...</button>
 
-                <a href = "#tf-works">
+                <a href = "#tf-mid">
                     <button type="button" class="btn btn-warning">Keep knocking</button>
                 </a>
                 <div class="clearfix"></div>
@@ -277,50 +277,123 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Walk Away?</h4>
+        <h4 class="modal-title">Walked Away!</h4>
       </div>
       <div class="modal-body">
-        <p>Are you 100% sure you want to walk away? You're blind and you somehow already made it to this place.</p>
+        <h1> Congrats! You survived the story,<strong><span class="color"> but you're boring</span></strong></h1>
+        <p class="lead">You will be a <strong>Piano Tuner</strong> for the rest of your life.</p>
       </div>
       <div class="modal-footer">
-        <a href = "#end1">
-            <button type="button" class="btn btn-warning">Yeah, I got no patience</button>
-        </a>
-        <button type="button" class="btn btn-info" data-dismiss="modal">Return to Story</button>
+        <button type="button" class="btn btn-info" data-dismiss="modal">Return to Door</button>
       </div>
     </div>
 
   </div>
 </div>
-    <!-- Portfolio Section
+
+<!-- At the door with response Section
+    ==========================================-->
+    <div id="tf-mid">
+        <div class="overlay">
+            <div class="content">
+                <div class="container"> <!-- Container -->
+                    <div class="section-title text-center center">
+                        <h2>"Who is it?" <strong>|"The tuner, piano tuner"</strong></h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                        <div class="clearfix"></div>
+                        <p><embeded>- "My husbnad's out. Come back another day" <br>
+                       </embeded>  </p>
+                    </div>
+                    <div class="categories">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div id="lightbox" class="row">
+                        <div class="col-md-3 col-lg-3 ">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a href="#tf-works">
+                                        <div class="hover-text">
+                                            <h4>"I don't need your husband to tune your piano.</h4>
+                                            <small>I had trouble coming here, I'm blind. None of you bothered to cancel the visit. You could at least open the door" </small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/story/15.JPG" class="img-responsive" >
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-lg-3 ">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                    <a data-toggle="modal" href="#walkAway">
+                                        <div class="hover-text">
+                                            <h4>"Alright...fine.</h4>
+                                            <small>I will let the office know you want to reschedule the visit"</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/story/15.JPG" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-lg-3">
+                            <div class="portfolio-item">
+                                <div class="hover-bg">
+                                     <a data-toggle="modal" href="#fired">
+                                        <div class="hover-text">
+                                            <h4>"WTF!? Are you kidding me?!</h4>
+                                            <small>You can't even reschedule ahead of time?! Do you understand how much trouble I went through?"</small>
+                                            <div class="clearfix"></div>
+                                            <i class="fa fa-plus"></i>
+                                        </div>
+                                        <img src="img/story/15.JPG" class="img-responsive" alt="...">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                  <div class="overlay">
+                    <div class="content">
+                         <!--Filler Space -->
+                     </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ <!-- Modal for when user clicked walk away-->
+<div id="fired" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Wow?!</h4>
+      </div>
+      <div class="modal-body">
+        <h1> Congrats! You survived the story,<strong><span class="color"> but you just lost it.</span></strong></h1>
+        <p class="lead">You just got <strong>Fired</strong> from your boring piano tuner life.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Return to Door</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+    <!-- story all Section
     ==========================================-->
     <div id="tf-works">
-        <div class="container"> <!-- Container -->
-            <div class="section-title text-center center">
-                <h2>"Who is it?" <strong>|"The tuner, piano tuner"</strong></h2>
-                <div class="line">
-                    <hr>
-                </div>
-                <div class="clearfix"></div>
-                <p><embeded>- "My husbnad's out. Come back another day" <br>
-                            - "I don't need your husband to tune your piano. I had trouble coming here, I'm blind. None of you bothered to cancel the visit. You could at least open the door" <br>
-                            - 
-               </embeded>  </p>
-            </div>
-            <div class="categories">
-                <ul class="cat">
-                    <li class="pull-left"><h4>Filter by Decision:</h4></li>
-                    <li class="pull-right">
-                        <ol class="type">
-                            <li><a href="#" data-filter=".atDoor" class="active">At the door</a></li>
-                            <li><a href="#" data-filter=".inside" >Inside</a></li>
-                            <li><a href="#" data-filter=".explaination">After</a></li>
-                            <li><a href="#" data-filter="*">Story Line</a></li>
-                        </ol>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-            </div>
             <div id="lightbox" class="row">
                 <div class="col-sm-6 col-md-3 col-lg-3 atDoor">
                     <div class="portfolio-item">
@@ -552,27 +625,6 @@
                     <span class="sr-only">Next</span>
                   </a>
 
-            </div>
-        </div>
-    </div>
-
-     <!--end1 Section
-    ==========================================-->
-    <div id="end1" class="text-center">
-        <div class="overlay">
-            <div class="content">
-                <h1> Congrats! You survived the story,<strong><span class="color"> but you're boring</span></strong></h1>
-                <p class="lead">You will be a <strong>Piano Tuner</strong> for the rest of your life</p>
-            </div>
-        </div>
-        <a href = "#tf-decision">
-            <button type="button" class="btn btn-warning">Undo: Go back to the door</button>
-        </a>
-        <div class="clearfix"></div>
-
-        <div class="overlay">
-            <div class="content">
-                <!--Filler Space -->
             </div>
         </div>
     </div>
